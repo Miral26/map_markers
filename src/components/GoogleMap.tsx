@@ -10,9 +10,6 @@ declare global {
   }
 }
 
-const apiKey = process.env.REACT_APP_API_KEY;
-console.log("console.log(process.env)", apiKey);
-
 function GoogleMap() {
   const handleSubmit = async (lng: number, lat: number) => {
     try {
